@@ -19,7 +19,9 @@ function App() {
             <Route
               exact
               path='/'
-            />
+            >
+              <Dashboard />
+            </Route>
             <Route path='/create'>
               <Create />
             </Route>
