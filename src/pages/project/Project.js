@@ -4,6 +4,7 @@ import ProjectSummary from './ProjectSummary';
 
 // styles
 import './Project.css';
+import ProjectComments from './ProjectComments';
 
 const Project = () => {
   const { id } = useParams();
@@ -20,6 +21,7 @@ const Project = () => {
   return (
     <div className='project-details'>
       <ProjectSummary project={document} />
+      <ProjectComments />
     </div>
   );
 };
