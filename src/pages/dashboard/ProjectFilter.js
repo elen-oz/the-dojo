@@ -2,12 +2,12 @@ import { useState } from 'react';
 
 const filterList = ['all', 'mine', 'development', 'design', 'marketing', 'sales'];
 
-const ProjectFilter = () => {
+const ProjectFilter = ({ changeFilter }) => {
   const [currentFilter, setCurrentFilter] = useState('all');
 
   const handleClick = (newFilter) => {
-    console.log(newFilter);
     setCurrentFilter(newFilter);
+    changeFilter(newFilter);
   };
 
   return (
