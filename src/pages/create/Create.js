@@ -119,7 +119,7 @@ const Create = () => {
         </label>
 
         <label>
-          <span>Project caregory:</span>
+          <span>Project category:</span>
           <Select
             options={categories}
             onChange={(option) => setCategory(option)}
