@@ -2,7 +2,7 @@
 
 #### Register, invite colleagues and work together on projects!
 
-[Link to the project](thedojosite-355e3.web.app)
+[Link to the project](https://thedojosite-355e3.web.app/)
 
 ## Available Scripts
 
