@@ -1,24 +1,53 @@
 # The Dojo
 
-#### Register, invite colleagues and work together on projects!
-
 [Link to the project](thedojosite-355e3.web.app)
 
-## Available Scripts
+## Description
 
-### `npm install`
+The Dojo is a collaborative project management tool. Register, invite colleagues, and work together on projects. This application is built with React.js, CSS, and HTML.
 
-Installing all required dependencies.
+## Features
 
-### `npm start`
+- User registration and login
+- Project creation and management
+- Collaboration with colleagues
+- Real-time updates on project progress
 
-Runs the app in the development mode.\
-Open [localhost:3000](http://localhost:3000) to view it in the browser.
+## Setup and Installation
 
-### `npm run build`
+To set up the project on your local machine, follow these steps:
 
-Builds the app for production to the `build` folder.\
+```sh
+# Clone the repository
+git clone https://github.com/elen-oz/the-dojo.git
 
-### `firebase deploy`
+# Navigate into the project directory
+cd the-dojo
 
-Deploy on Firebase
+# Install the required dependencies
+npm install
+```
+
+## Usage
+
+To run the application in development mode, use the command:
+
+```sh
+npm start
+```
+
+This will start the application on `localhost:3000`.
+
+To build the application for production, use the command:
+
+```sh
+npm run build
+```
+
+This will create a build folder with the production-ready application.
+
+To deploy the application on Firebase, use the command:
+
+```sh
+firebase deploy
+```
